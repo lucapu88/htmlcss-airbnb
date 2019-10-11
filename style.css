@@ -11,7 +11,7 @@
 }
 
 .roma {
-  background-color: red;
+  background-image: url('https://www.turituri.com/wp-content/uploads/roma-colosseo.jpg');
   width: 300px;
   height: 200px;
   position: absolute;
@@ -20,7 +20,7 @@
 }
 
 .londra {
-  background-color: blue;
+  background-image: url('https://www.voglioviverecosi.com/wp-content/uploads/2018/05/STUDIARE-A-LONDRA-1900x1080.jpg');
   width: 300px;
   height: 200px;
   position: absolute;
@@ -29,10 +29,18 @@
 }
 
 .amsterdam {
-  background-color: yellow;
+  background-image: url('https://www.voglioviverecosi.com/wp-content/uploads/2018/05/STUDIARE-A-LONDRA-1900x1080.jpg');
   width: 300px;
   height: 200px;
   position: absolute;
   left: 10px;
   top: 440px;
+}
+
+.scritta {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
