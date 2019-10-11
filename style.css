@@ -10,35 +10,38 @@
   position: relative;
 }
 
+.città {
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  position: absolute;
+  transform: translate(150%, 5%);
+}
+
 .roma {
   background-image: url('https://www.turituri.com/wp-content/uploads/roma-colosseo.jpg');
   width: 300px;
   height: 200px;
-  position: absolute;
   left: 10px;
   top: 10px;
 }
 
 .londra {
   background-image: url('https://www.voglioviverecosi.com/wp-content/uploads/2018/05/STUDIARE-A-LONDRA-1900x1080.jpg');
-  width: 300px;
-  height: 200px;
-  position: absolute;
   left: 10px;
   top: 220px;
 }
 
 .amsterdam {
-  background-image: url('https://www.voglioviverecosi.com/wp-content/uploads/2018/05/STUDIARE-A-LONDRA-1900x1080.jpg');
-  width: 300px;
-  height: 200px;
-  position: absolute;
+  background-image: url('https://cdn.civitatis.com/paises-bajos/amsterdam/galeria/casas-barco-amsterdam.jpg');
   left: 10px;
   top: 440px;
 }
 
 .scritta {
-  color: black;
+  color: white;
+  font-size: 30px;
+  font-family: 'Notable', sans-serif;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -50,5 +53,5 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.3);
 }
