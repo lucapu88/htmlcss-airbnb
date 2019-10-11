@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contenitore{
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.roma {
+  background-color: red;
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.londra {
+  background-color: blue;
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  left: 10px;
+  top: 220px;
+}
+
+.amsterdam {
+  background-color: yellow;
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  left: 10px;
+  top: 440px;
+}
