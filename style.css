@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .contenitore{
@@ -56,7 +57,7 @@
   transform: translate(-50%, -50%);
 }
 
-#overlay {
+.overlay {
   position: absolute;
   top: 0;
   left: 0;
